@@ -10,6 +10,9 @@ namespace BankApplication
     {
         static void Main(string[] args)
         {
+            SavingsAccount sa = new SavingsAccount(1000.0m,0.15m);
+
+            Console.ReadLine();
         }
     }
 }
