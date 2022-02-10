@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Properties"
   ],
-  "SelectedNode": "\\BankApplication.csproj",
+  "SelectedNode": "\\Properties\\AssemblyInfo.cs",
   "PreviewInSolutionExplorer": false
 }
