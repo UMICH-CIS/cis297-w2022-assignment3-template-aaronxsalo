@@ -5,3 +5,4 @@ C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment3-template-aaronxsalo\Ban
 C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment3-template-aaronxsalo\BankApplication\obj\Debug\BankApplication.csproj.CoreCompileInputs.cache
 C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment3-template-aaronxsalo\BankApplication\obj\Debug\BankApplication.exe
 C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment3-template-aaronxsalo\BankApplication\obj\Debug\BankApplication.pdb
+C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment3-template-aaronxsalo\BankApplication\bin\Debug\BankApplication.xml

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankApplication</name>
+    </assembly>
+    <members>
+        <member name="T:BankApplication.Account">
+            <summary>
+            HEADER - this header file implements all classes used by the main program
+            </summary>
+            <summary>
+            Account Class - default account object, inherited by SavingsAccount and CheckingAccount
+            </summary>
+        </member>
+        <member name="M:BankApplication.Account.#ctor(System.Decimal)">
+            <summary>
+            Account Constructor - allows user to set initial balance
+            </summary>
+        </member>
+        <member name="M:BankApplication.Account.Credit(System.Decimal)">
+            <summary>
+            this function allows the user to credit into the account - virtual for inherited classes
+            </summary>
+        </member>
+        <member name="M:BankApplication.Account.Debit(System.Decimal)">
+            <summary>
+            this function allows the user to debit from the account - virtual for inherited classes
+            </summary>
+        </member>
+        <member name="M:BankApplication.Account.CalculateInterest">
+            <summary>
+            this function exists so that SavingsAccount can override it, this will allow polymorphism with this function
+            </summary>
+        </member>
+        <member name="T:BankApplication.SavingsAccount">
+            <summary>
+            SavingsAccount Class - inherits from Account class 
+            </summary>
+        </member>
+        <member name="M:BankApplication.SavingsAccount.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            SavingsAccount Constructor - allows user to set initial balance as well as interest rate
+            </summary>
+        </member>
+        <member name="M:BankApplication.SavingsAccount.CalculateInterest">
+            <summary>
+            this functions calculates interest by multiplying rate times the account balance
+            </summary>
+        </member>
+        <member name="T:BankApplication.CheckingAccount">
+            <summary>
+            CheckingAccount Class - inherits from Account class
+            </summary>
+        </member>
+        <member name="M:BankApplication.CheckingAccount.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            CheckingAccount Constructor - allows user to set initial balance as well as the transaction fee
+            </summary>
+        </member>
+        <member name="M:BankApplication.CheckingAccount.Credit(System.Decimal)">
+            <summary>
+            this function overrides credit function to add in transaction fees
+            </summary>
+        </member>
+        <member name="M:BankApplication.CheckingAccount.Debit(System.Decimal)">
+            <summary>
+            this function overrides debit function to add in transaction fees
+            </summary>
+        </member>
+        <member name="T:BankApplication.Program">
+            <summary>
+            MAIN - this program allows the user to credit/debit from a savings and checking account
+            </summary>
+            <Student>Aaron Salo</Student>
+            <Class>CIS297</Class>
+            <Semester>Winter 2022</Semester>
+        </member>
+        <member name="M:BankApplication.Program.testRun">
+            <summary>
+            This function is used to run the test code required by Exercise 11.8 - user will be prompted to run it with choice 0
+            </summary>
+        </member>
+        <member name="M:BankApplication.Program.Main(System.String[])">
+            <summary>
+            MAIN FUNCTION
+            </summary>
+        </member>
+    </members>
+</doc>
